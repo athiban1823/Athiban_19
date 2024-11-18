@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <div class="logo">
+        <a href="#"> <img src="image/logo.png" alt=""> </a>
+        <h1>Backend Developer (Python)</h1>
+      </div>
+
+      <div class="nav">
+        <a href="#About">About Course</a>
+        <a href="#skill">Skills You'll learn</a>
+        <a href="#tech">Technical modules</a>
+        <a href="#key">key Features</a>
+        <a href="">Certification</a>
+      </div>
+    </header>
+             <!-- content -->
+             <div class="back">
+              <img src="image/pyt.webp" alt="">
+             </div>
+             <div class="container" id="About" >
+             <h2 >About Course</h2>
+             <p>A backend developer specializing in Python focuses on building and maintaining the server-side logic, databases, APIs, and overall infrastructure that powers a website or application. Python is a popular language for backend development due to its readability, simplicity, and the wide range of powerful libraries and frameworks available for web development. Here’s a breakdown of what a Python backend developer does:</p>
+             <img src="image/pyth.png" alt="">
+            </div>
+
+            <div class="part" id="skill">
+             <h2>Skills You'll learn</h2>
+             <img data-aos="zoom-in-down" src="image/backe.jpg" alt="">
+            </div>
+
+
+            <div class="part2" id="tech">
+                <h2 onclick="toggleModules()">Technical Modules</h2>
+                <div class="part1" id="tech">
+            <div data-aos="zoom-in-left" class="item">
+              <h3>Developing Server-Side Logic:</h3>
+              <li>Writing the code that powers the backend of websites or applications.</li>
+               <li> Ensuring that data processing, storage, and retrieval are handled efficientl </li>
+               <li> Writing queries and managing data storage to ensure optimal performance. </li>
+              
+            </div>
+            <div data-aos="zoom-in-left" class="item">
+                <h3>CSS (Cascading Style Sheets):</h3>
+              <li>Styling web pages (colors, fonts, layouts).</li>
+              <li>CSS Grid and Flexbox for responsive design.</li>
+              <li>Animations and transitions.</li>
+              
+            </div>
+            <div data-aos="zoom-in-left" class="item">
+                <h3>JavaScript (JS):</h3>
+              <li>Basics of programming (variables, loops, functions).</li>
+              <li>DOM (Document Object Model) manipulation.</li>
+              <li>ES6+ features (e.g., arrow functions, promises).</li>
+              
+            </div>
+            <div data-aos="zoom-in-left" class="item">
+                <h3>Responsive Design:</h3>
+              <li>Mobile-first design</li>
+              <li>Media queries.</li>
+              <li>Tools like Bootstrap or Tailwind CSS</li>
+             
+            </div>
+            <div data-aos="zoom-in-left" class="item">
+                <h3>Version Control:</h3>
+              <li>Git basics.</li>
+              <li>Using GitHub for collaboration and portfolio hosting.</li>
+              <li>Using JSON.</li>
+              
+            </div>
+            <div data-aos="zoom-in-left" class="item">
+                <h3>Front-End Frameworks (Optional/Advanced): </h3>
+              <li>React</li>
+              <li>Vue</li>
+              <li>Angular</li>
+              
+            </div>
+          </div>
+        </div>
+        <div class="key" id="key">
+          <h2>Key Features in Back-End Developer(Python)</h2>
+          <h3 onclick="toggleContent(this)">1. Proficiency in Core Technologies <i class="fa-solid fa-angle-down"></i></h3>
+          <div class="content">
+            <img src="image/pro.png" alt="">
+            <p>HTML (HyperText Markup Language):</p>
+            <li>Structures the content of web pages.</li>
+            <li>Semantic HTML for better accessibility and SEO.</li>
+      
+            <p>CSS (Cascading Style Sheets):</p>
+            <li>Styles web pages with layouts, colors, and fonts.</li>
+            <li>Mastery of CSS frameworks like Bootstrap and Tailwind CSS.</li>
+            <li>Responsive design using CSS Grid and Flexbox.</li>
+      
+            <p>JavaScript (JS):</p>
+            <li>Adds interactivity to web pages (e.g., forms, sliders).</li>
+            <li>Experience with ES6+ syntax (arrow functions, destructuring, etc.).</li>
+            <li>DOM manipulation for dynamic web pages.</li>
+          </div>
+        </div>
+      
+        <div class="key1">
+          <h3 onclick="toggleContent(this)">2. Knowledge of Frameworks and Libraries <i class="fa-solid fa-angle-down"></i></h3>
+          <div class="content">
+            <img src="image/li.webp" alt="">
+            <p>React, Angular, or Vue.js:</p>
+            <li>React is highly popular for building component-based applications.</li>
+            <li>Angular or Vue.js for larger or specific projects.</li>
+      
+            <p>CSS Preprocessors:</p>
+            <li>Experience with tools like SASS or LESS for more modular and efficient CSS.</li>
+          </div>
+        </div>
+      
+        <div class="key2">
+          <h3 onclick="toggleContent(this)">3. Responsive and Mobile-First Design <i class="fa-solid fa-angle-down"></i></h3>
+          <div class="content">
+            <img src="image/mob.png" alt="">
+            <p>Responsive and Mobile-First Design:</p>
+            <li>Designing for various screen sizes (mobile, tablet, desktop).</li>
+            <li>Implementing media queries for layout adjustments.</li>
+            <li>Familiarity with Progressive Web Apps (PWA) concepts.</li>
+          </div>
+        </div>
+          
+        <div class="key2">
+          <h3 onclick="toggleContent(this)">4. APIs and Data Handling <i class="fa-solid fa-angle-down"></i></h3>
+          <div class="content">
+            <img src="image/api.png" alt="">
+            <p>RESTful APIs:</p>
+            <li>Fetch data using fetch() or libraries like Axios.</li>
+            <li>Understanding HTTP methods (GET, POST, PUT, DELETE).</li>
+            <li>JSON: Reading and processing structured data.</li>
+            <li>Working with GraphQL (optional for advanced learners).</li>
+          </div>
+        </div>
+
+        <div class="key2">
+          <h3 onclick="toggleContent(this)">5. Testing and Debugging <i class="fa-solid fa-angle-down"></i></h3>
+          <div class="content">
+            <img src="image/dub.jpg" alt="">
+            <p>Testing frameworks:</p>
+            <li>Debugging with browser DevTools.</li>
+            <li>Jest: Unit testing.</li>
+            <li>Writing and running automated tests to ensure code quality.</li>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
+     
+</body>
+</html>
